@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MapComponent from './MapComponent';
 
 /*
 * Use this component as a launching-pad to build your functionality.
@@ -9,7 +10,7 @@ export default class YourComponent extends Component {
   render() {
     return (
       <div style={divStyle}>
-		  <h1> Put your solution here!</h1>
+        <MapComponent/>
       </div>
     );
   }
@@ -21,3 +22,4 @@ var divStyle = {
   borderStyle: 'solid',
   padding: 20
 };
+
